@@ -1,0 +1,21 @@
+# Secrets
+backend/.env
+.env
+
+# Backend Virtual Environment & Database
+backend/.venv/
+backend/notes.db
+backend/__pycache__/
+*.pyc
+
+# Frontend dependencies & builds
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# IDE / OS junk
+.DS_Store
+.vscode/
+.idea/
+*.log
